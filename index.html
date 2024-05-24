@@ -40,6 +40,17 @@
             <td><label>Bananita</label></td>
         </tr>
     </table>
+    <div>
+    <button>Decir Perro</button>
+    </div>
     <a href="https://github.com/Mrbig28/DeGanteUziel">Link a github</a>
 </body>
+<script>
+    const mybutton = document.getElementsByTagName("button");
+
+    function decirHola(){
+      console.log("Hola publico");
+    }
+    mybutton.item(0).addEventListener("click", decirHola)
+</script>
 </html>
